@@ -1,0 +1,340 @@
+{
+  "project_version": "1.0.0",
+  "created_utc": "2026-10-07T09:34:55.407516+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "data_source": "baostock_historical_snapshot",
+  "input_files": {
+    "sh_600519.csv": {
+      "sha256": "36de7ad4dac48807f2012db97acbb4352c9225a792c9516fd64d0ec07be805d6",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_000858.csv": {
+      "sha256": "4ae59294c167b2820f9c0e910e3cc17a0bb90aaf68f0ea2e8c22c5849b36d5c2",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_000333.csv": {
+      "sha256": "4c4da3ee23633f78f74c39acb64f40d2afd4857abe98ef280b19034e0c64d824",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_000651.csv": {
+      "sha256": "e379b1df731067bf8450bd620bedf5268b13e74dd49cfac713e8598d3fed51e7",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_000001.csv": {
+      "sha256": "d83bde07bf8e4477eea3bbeca094978515c714f0dbafe0946bf504f55973c030",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600036.csv": {
+      "sha256": "a0ccdf76aba8728acbc44719e4ce50caa284b72852af75dac35fbdf035d616bc",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601318.csv": {
+      "sha256": "2ef87f0d2997dd4c6204b6ebfdc336a397f5583d1bf99eb4262b18c4aa928f4e",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600276.csv": {
+      "sha256": "de8119bbcabe9c7443a2054e4da5e75fa29e61669af5a51c0cc3e01c91fdcf1b",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_300750.csv": {
+      "sha256": "a6565ac2430a45c6a564896f6cfca00a3ba919468f7c265db22c0ac3dec95259",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_002594.csv": {
+      "sha256": "30315b2db7cb3f3b75b8c223e8d9543ca31bd39dd6ecfd90051d44b5ad5f9682",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601012.csv": {
+      "sha256": "0722149fe2109659f05a4d71fcbd61d19c5306403800ebca172f560eb93d7f0b",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600900.csv": {
+      "sha256": "3a70e130173c8de6b725cdfe89ef10388e47912dc4ed61e4e6a77cbfc3a5c488",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601166.csv": {
+      "sha256": "557c5990d87c661f28387b1c580d2e99b132911e8d9554a448bbefade5f0cd2b",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601398.csv": {
+      "sha256": "77b4e4b3cd3eb07b8608b63f869d007325227a9298e506a2f4051d1a047a60b0",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601288.csv": {
+      "sha256": "2c8022f26e89374600afc6197b08cbcc9f0158256c4ef9ded04152fe8687e43c",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600030.csv": {
+      "sha256": "b32f0d3df7b271418a2a3c89eb9765f4e7a9ef9f3759c34a26c58eaaa00b498c",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600887.csv": {
+      "sha256": "14dbb3134c04d405aa85cc38cfb2f96c713296f33bce8fae75c40487afae1114",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_002415.csv": {
+      "sha256": "96eaef33b79a26cc94720e506a7e2843f0250eaf326e522cf4f01203539e1bdf",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sz_300059.csv": {
+      "sha256": "7a10afc9bc6c230ed1a383dbf32740b1ea922cb57fb084e366e64e69eb6f446c",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_601899.csv": {
+      "sha256": "b1c735aac8ef4d445da0c27dd699dc602e65ba1be46549cb194fa2e807563b24",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600000.csv": {
+      "sha256": "aba118444f39fcfc4a73770a6f4afc9d7f43377ffe80767fd9ab2510f27165b9",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600009.csv": {
+      "sha256": "378b89a6e9f3aba4692381f3e41e1c91203c3ebafec2fcb9e737d74ceac16de7",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600010.csv": {
+      "sha256": "d44c88f3d566994609eda0da440459a5c27dba053eb00bb46efa8faf522b1878",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600011.csv": {
+      "sha256": "013d6ded57632d6eeb894549c65f42865e8ecb978af51a36c476caf49d02f429",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600015.csv": {
+      "sha256": "21feae862c13014e0c5fa5bafa83256be7073ac770f4e5f3c0b70a3f6b45106b",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600016.csv": {
+      "sha256": "61388beabb887feed6c5bf249b2e1891cfab712005b5238698aa5b98dd090e3f",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600018.csv": {
+      "sha256": "6a90b16bae5b02e08d6fe308e4498fe9d57f9b7c14d323e4c0d042a4966aacba",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600019.csv": {
+      "sha256": "bae8df288d6632189b0337df756ea9a3f4905f5d2f03a05e2b24a4da463f61ae",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600023.csv": {
+      "sha256": "a3a3c850b9f6669f012381649fbbcbfd2aa2515bd91a215e2d9b6dd3d84e5e69",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "sh_600025.csv": {
+      "sha256": "646d2d3ff831e31dcf3b2aa28bfc8683d3c64d54142cba13017584538fb93894",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "2",
+      "suspension_rows_removed_from_source": true
+    },
+    "benchmark_hs300.csv": {
+      "sha256": "8b0e4ac2ae6a7bfff1afcadd26f810fe4b89531203fb75fbda7aab3c59cd5859",
+      "coverage_start": "2021-01-04",
+      "coverage_end": "2026-09-30",
+      "adjustflag": "3",
+      "suspension_rows_removed_from_source": false
+    }
+  },
+  "processed_files": {
+    "panel.csv": "37391c2a5a03f1d30074eeaa203035fadd64e10319c6eba6b6d88aa3c8ab2baf",
+    "benchmark.csv": "1fc535bb80c422653d291f961f908f9c7346631ed0f5adb029005fc83177fdb3",
+    "data_quality.csv": "43a88662ab8856b43b1ad7c26e63a113ab4698a605c806424e886e003181aa6d"
+  },
+  "selected_codes": [
+    "sh.600519",
+    "sz.000858",
+    "sz.000333",
+    "sz.000651",
+    "sz.000001",
+    "sh.600036",
+    "sh.601318",
+    "sh.600276",
+    "sz.300750",
+    "sz.002594",
+    "sh.601012",
+    "sh.600900",
+    "sh.601166",
+    "sh.601398",
+    "sh.601288",
+    "sh.600030",
+    "sh.600887",
+    "sz.002415",
+    "sz.300059",
+    "sh.601899",
+    "sh.600000",
+    "sh.600009",
+    "sh.600010",
+    "sh.600011",
+    "sh.600015",
+    "sh.600016",
+    "sh.600018",
+    "sh.600019",
+    "sh.600023",
+    "sh.600025"
+  ],
+  "actual_start": "2021-01-04",
+  "actual_end": "2026-09-30",
+  "parameters": {
+    "FORWARD_HORIZON": 5,
+    "MIN_CROSS_SECTION": 10,
+    "N_GROUPS": 5,
+    "MAD_N": 3.0,
+    "IC_LOOKBACK": 60,
+    "IC_MIN_PERIODS": 20,
+    "ICIR_CLIP": 3.0,
+    "TOP_N": 5,
+    "REBALANCE_DAYS": 5,
+    "ONE_WAY_COST": 0.001,
+    "BLOCK_LIMIT_OPEN": true,
+    "TRAIN_END": "2023-12-31",
+    "VALIDATION_END": "2024-12-31",
+    "STATIC_DIRECTIONS": {
+      "mom20": 1,
+      "mom60": 1,
+      "rev5": 1,
+      "vol20": -1,
+      "vol60": -1,
+      "turn20": -1,
+      "volratio20": 1,
+      "amihud20": -1,
+      "rsi14": -1,
+      "bollpos20": -1,
+      "trend2060": 1
+    },
+    "REDUCED_FACTORS": [
+      "mom60",
+      "rev5",
+      "vol20",
+      "turn20",
+      "volratio20",
+      "amihud20"
+    ]
+  },
+  "label": "open_T+1_to_open_T+H+1",
+  "ic_delay_trading_days": 6,
+  "first_signal": "2021-05-14",
+  "first_execution": "2021-05-17",
+  "latest_scored_stocks": 30,
+  "experiments_run": true,
+  "source_sha256": {
+    "config.py": "4f29d28d0afd4e6dbce614ae394ef9cb10f005b3dd113dccb5d5f5a8027d2fc8",
+    "main.py": "4915165984523cc6df806c2ae0ecde97361e2561aed93570b0e3102ed2382ddc",
+    "scripts/build_panel.py": "4d0180f2563858d2fae43ee0ae5ec90e59c54059616cd8edf43769f9b5dcbebd",
+    "scripts/download_data.py": "997c1f8c2ddf992cfe44679b174a09a0882f24341fd9f26d4f78ac1f4e6847ef",
+    "scripts/make_demo_data.py": "9db31f4d2aef4d9722e96106d57256473e2bce356b4decfbccc8aeef52eb7e00",
+    "scripts/package_source.py": "e2f5b870e83c6e71b7e217bc4bccafdaad19cad12ee24c301f71526724b7fda0",
+    "scripts/run_all.py": "85043cd024025573c5c700d9cce3b5ac3103a88ff753915bcf6352fe023f8ff6",
+    "scripts/test_connection.py": "a1f3958b847880fc12c6204fdcc412281c7463f3a5e37afe8d686a733ff9c78f",
+    "src/__init__.py": "5d1a5ee5c51b7ff61bf787e6d9b05ab6e5a99b9660926691cc42d623e3a217cc",
+    "src/data_provider.py": "c7fa8a59da661a1a2b8a7ceb6e8438f258abe41169a83834991efacab818eaec",
+    "src/dataset.py": "5ac4a228f33b846769769c2ac259f51662634d8cf0792ad2a6deab030654cc1a",
+    "src/factor_research.py": "616ffdfdd69f254b654bdae58c00557690708d9437111fb961936b4771886d37",
+    "src/factors.py": "dd56f297b8c1e98d8171cba2126a44ccb7ef9dbad9a9999d3aabc047657e375e",
+    "src/performance.py": "a91c94b546c1f874bbd62ce204993be5e533909d31f9c4fe49a3521e5a67a456",
+    "src/portfolio.py": "ecef44680301c0a612ae4115dc7f2e4b5fe798fcadd295df5da6f591258cf106",
+    "src/preprocess.py": "5b18c964007883f85fa94e936ca8be80ef2f2c31e30b66059d72bc0a7f480aa3",
+    "src/risk.py": "1ed6ed716d4bffffa8a1f35a8e288f95ab6a62512087179b0bef2cf4e2255a8d",
+    "tests/test_regressions.py": "5468f8503bfa54b82280abfbbb0dbc3112ea4d81900a8483c545649230d84fc2"
+  },
+  "limitations": [
+    "current constituents / selected sample, not historical point-in-time membership",
+    "retrospective time split: historical data already inspected; not an untouched holdout",
+    "fractional adjusted-price units; no real-share corporate-action ledger or lot rounding",
+    "approximate opening-limit guard; no intraday order-book/fill model",
+    "price-index benchmark versus adjusted-price stock returns; dividend convention differs",
+    "unknown missing source rows marked separately; not claimed to be confirmed suspensions"
+  ]
+}

@@ -1,0 +1,7 @@
+# Offline calculations were verified on CPython 3.12.14 with these versions.
+# BaoStock network requests were not run in this delivery environment.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+baostock==0.9.3

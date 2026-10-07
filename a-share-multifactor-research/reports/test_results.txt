@@ -1,0 +1,50 @@
+test_close_label_delay (test_regressions.CalendarAndCausalityTests.test_close_label_delay) ... ok
+test_complete_calendar_required (test_regressions.CalendarAndCausalityTests.test_complete_calendar_required) ... ok
+test_constant_factor_not_grouped (test_regressions.CalendarAndCausalityTests.test_constant_factor_not_grouped) ... ok
+test_empty_ic_keeps_calendar (test_regressions.CalendarAndCausalityTests.test_empty_ic_keeps_calendar) ... ok
+test_gap_does_not_extend_horizon (test_regressions.CalendarAndCausalityTests.test_gap_does_not_extend_horizon) ... ok
+test_missing_ic_date_not_compressed (test_regressions.CalendarAndCausalityTests.test_missing_ic_date_not_compressed) ... ok
+test_nontradable_label_entry_is_missing (test_regressions.CalendarAndCausalityTests.test_nontradable_label_entry_is_missing) ... ok
+test_open_constraints_do_not_read_same_day_close (test_regressions.CalendarAndCausalityTests.test_open_constraints_do_not_read_same_day_close) ... ok
+test_prefix_invariance_and_latest_score (test_regressions.CalendarAndCausalityTests.test_prefix_invariance_and_latest_score) ... ok
+test_blocked_buy_leaves_cash_without_reweighting (test_regressions.LedgerTests.test_blocked_buy_leaves_cash_without_reweighting) ... ok
+test_blocked_sell_preserves_position_and_cash (test_regressions.LedgerTests.test_blocked_sell_preserves_position_and_cash) ... ok
+test_duplicate_keys_fail (test_regressions.LedgerTests.test_duplicate_keys_fail) ... ok
+test_explicit_common_start_keeps_cash_before_first_valid_target (test_regressions.LedgerTests.test_explicit_common_start_keeps_cash_before_first_valid_target) ... ok
+test_first_cost_is_included (test_regressions.LedgerTests.test_first_cost_is_included) ... ok
+test_flat_prices_no_cost_nav_constant (test_regressions.LedgerTests.test_flat_prices_no_cost_nav_constant) ... ok
+test_fully_rotated_turnover_is_two (test_regressions.LedgerTests.test_fully_rotated_turnover_is_two) ... ok
+test_invalid_cost_fails (test_regressions.LedgerTests.test_invalid_cost_fails) ... ok
+test_ledger_conservation_in_random_prices (test_regressions.LedgerTests.test_ledger_conservation_in_random_prices) ... ok
+test_limit_guard_blocks_only_appropriate_side (test_regressions.LedgerTests.test_limit_guard_blocks_only_appropriate_side) ... ok
+test_missing_open_uses_previous_close_not_today_close (test_regressions.LedgerTests.test_missing_open_uses_previous_close_not_today_close) ... ok
+test_missing_quote_does_not_remove_assets (test_regressions.LedgerTests.test_missing_quote_does_not_remove_assets) ... ok
+test_no_valuation_for_held_stock_fails_loudly (test_regressions.LedgerTests.test_no_valuation_for_held_stock_fails_loudly) ... ok
+test_quantity_drifts_without_daily_equal_weight_reset (test_regressions.LedgerTests.test_quantity_drifts_without_daily_equal_weight_reset) ... ok
+test_schedule_does_not_compress_missing_scores (test_regressions.LedgerTests.test_schedule_does_not_compress_missing_scores) ... ok
+test_signal_executes_next_day (test_regressions.LedgerTests.test_signal_executes_next_day) ... ok
+test_tied_scores_deterministic (test_regressions.LedgerTests.test_tied_scores_deterministic) ... ok
+test_constant_and_missing (test_regressions.PreprocessTests.test_constant_and_missing) ... ok
+test_infinity_is_missing (test_regressions.PreprocessTests.test_infinity_is_missing) ... ok
+test_nan_is_not_zero (test_regressions.PreprocessTests.test_nan_is_not_zero) ... ok
+test_outlier (test_regressions.PreprocessTests.test_outlier) ... ok
+test_rsi_falling (test_regressions.PreprocessTests.test_rsi_falling) ... ok
+test_rsi_flat (test_regressions.PreprocessTests.test_rsi_flat) ... ok
+test_rsi_rising (test_regressions.PreprocessTests.test_rsi_rising) ... ok
+test_rsi_warmup_missing (test_regressions.PreprocessTests.test_rsi_warmup_missing) ... ok
+test_comparison_rejects_misaligned_dates (test_regressions.RiskAndPerformanceTests.test_comparison_rejects_misaligned_dates) ... ok
+test_initial_cost_drawdown (test_regressions.RiskAndPerformanceTests.test_initial_cost_drawdown) ... ok
+test_kupiec_zero_and_all_exceptions (test_regressions.RiskAndPerformanceTests.test_kupiec_zero_and_all_exceptions) ... ok
+test_performance_keeps_first_cost (test_regressions.RiskAndPerformanceTests.test_performance_keeps_first_cost) ... ok
+test_standard_sharpe (test_regressions.RiskAndPerformanceTests.test_standard_sharpe) ... ok
+test_var_does_not_read_current_return (test_regressions.RiskAndPerformanceTests.test_var_does_not_read_current_return) ... ok
+test_var_es_order (test_regressions.RiskAndPerformanceTests.test_var_es_order) ... ok
+test_crop_and_checksum_enforced (test_regressions.SnapshotTests.test_crop_and_checksum_enforced) ... [demo] synthetic data only: 10 stocks x 20 dates
+ok
+test_invalid_limit (test_regressions.SnapshotTests.test_invalid_limit) ... ok
+test_nontrading_requested_start_does_not_break_cache (test_regressions.SnapshotTests.test_nontrading_requested_start_does_not_break_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 7.618s
+
+OK
